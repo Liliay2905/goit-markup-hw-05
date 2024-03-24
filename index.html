@@ -508,7 +508,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <!--button --->
         <button type="button" class="xbutton">
@@ -520,7 +520,7 @@
         <!--form-->
         <form class="form">
           <div class="menu-client">
-            <label class="form-label"> Name </label>
+            <label class="form-label">Name</label>
             <div class="icon-input">
               <input
                 class="form-input"
@@ -534,7 +534,7 @@
             </div>
           </div>
           <div class="menu-client">
-            <label class="form-label"> Phone </label>
+            <label class="form-label">Phone</label>
             <div class="icon-input">
               <input
                 class="form-input"
@@ -548,7 +548,7 @@
             </div>
           </div>
           <div class="menu-client">
-            <label class="form-label"> Email </label>
+            <label class="form-label">Email</label>
             <div class="icon-input">
               <input
                 class="form-input"
@@ -562,24 +562,27 @@
             </div>
           </div>
           <div class="comment-client">
-            <label class="form-label"
-              >Comment
-              <textarea
-                class="form-textarea"
-                name="comment"
-                placeholder="Text input"
-                id="comment"
-                cols="30"
-                rows="5"
-              ></textarea>
-            </label>
+            <label class="form-label">Comment </label>
+            <textarea
+              class="form-textarea"
+              name="comment"
+              placeholder="Text input"
+              id="comment"
+              cols="30"
+              rows="5"
+            ></textarea>
           </div>
           <!-- =====user-privacy===== -->
           <div class="user-privacy">
             <div class="modal-click">
               <div class="modaldrop">
-                <input type="checkbox" id="privecy" class="modal-check" />
-                <label for="privecy" class="check-text">
+                <input
+                  type="checkbox"
+                  id="privecy"
+                  class="modal-check"
+                  value="true"
+                />
+                <label for="user-privacy" class="check-text">
                   <span class="text-privacy">
                     <svg
                       class="icon-mini"
@@ -588,7 +591,7 @@
                       viewBox="0 0 8 8"
                       fill="none"
                     >
-                      <use href="./images/icons.svg#knopka"></use>
+                      <use href="./images/icons.svg#icon-vector"></use>
                     </svg> </span
                   >I accept the terms and conditions of the
                   <a href="" class="check-link">Privacy politic</a>
@@ -596,6 +599,7 @@
               </div>
             </div>
           </div>
+          <button class="button-modal-form" type="button">Send</button>
         </form>
       </div>
     </div>
